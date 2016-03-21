@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LDCPushViewController.h
 //  LDCTransitionAnimatorDemo
 //
 //  Created by 花生 on 16/3/19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface LDCPushViewController : UIViewController
+@property (nonatomic,assign)CGRect pushframe;
 @end
-
